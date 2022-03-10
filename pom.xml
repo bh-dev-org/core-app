@@ -7,7 +7,12 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Spring Boot Jersey Blank Project (from https://github.com/making/spring-boot-jersey-blank)</name>
+    <name>core-app</name>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
